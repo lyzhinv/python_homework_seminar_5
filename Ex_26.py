@@ -15,8 +15,7 @@ while True:
                 result = x * Degree_Rec(x, y - 1)
             return result
 
-        print(
-            f'Результатом возвидения числа {a} в степень {b} явялется -> {Degree_Rec(a, b)}')
+        print(f'Результатом возвидения числа {a} в степень {b} явялется -> {Degree_Rec(a, b)}')
         break
     except:
         print('Ошибка! Необходимо ввести целое положительное число')
